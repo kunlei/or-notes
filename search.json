@@ -4,14 +4,7 @@
     "href": "index.html",
     "title": "Random Notes on Pragmatic Optimization",
     "section": "",
-    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books."
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Introduction\nSetup\n\nJava\nPython\nCplex\n\nModeling with Solvers\n\ncplex\n\nColumn Generation\n\ntheory\napplications\n\ncutting stock\nvehicle routing\n\n\nMetaheuristics\n\nTabu search\nSimulated annealing\n\nLarge-scale Optimization Services"
   },
   {
     "objectID": "summary.html",
@@ -19,12 +12,5 @@
     "title": "2  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever."
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   }
 ]

@@ -118,7 +118,10 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a>
+  <ul class="collapse">
+  <li><a href="#chapters" id="toc-chapters" class="nav-link" data-scroll-target="#chapters">Chapters</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -155,10 +158,39 @@ ul.task-list{list-style: none;}
 
 <section id="preface" class="level1 unnumbered">
 <h1 class="unnumbered">Preface</h1>
-<p>This is a Quarto book.</p>
-<p>To learn more about Quarto books visit <a href="https://quarto.org/docs/books" class="uri">https://quarto.org/docs/books</a>.</p>
+<section id="chapters" class="level2">
+<h2 class="anchored" data-anchor-id="chapters">Chapters</h2>
+<ul>
+<li>Introduction</li>
+<li>Setup
+<ul>
+<li>Java</li>
+<li>Python</li>
+<li>Cplex</li>
+</ul></li>
+<li>Modeling with Solvers
+<ul>
+<li>cplex</li>
+</ul></li>
+<li>Column Generation
+<ul>
+<li>theory</li>
+<li>applications
+<ul>
+<li>cutting stock</li>
+<li>vehicle routing</li>
+</ul></li>
+</ul></li>
+<li>Metaheuristics
+<ul>
+<li>Tabu search</li>
+<li>Simulated annealing</li>
+</ul></li>
+<li>Large-scale Optimization Services</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
